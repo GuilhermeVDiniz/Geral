@@ -20,4 +20,4 @@ if __name__ == "__main__":
         qr_image.save("qrcode_wifi.png")
         print("QR Code gerado e salvo com sucesso.")
     except ValueError as e:
-        print(f"Erro: {e}")
+        print(f"Erro - : {e}")
